@@ -2,4 +2,45 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.bg-main {
+  background-color: #222222;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em;
+}
+.nav-links li:hover {
+  text-decoration: underline;
+}
+
+.dropdown .dropdown-menu {
+  background-color: #222222;
+  padding: 0.5em;
+}
+.dropdown .dropdown-menu li:hover {
+  background-color: #333;
+}
+.dropdown .dropdown-menu li a {
+  color: #fff;
+  text-decoration: none;
+}
+.dropdown .dropdown-menu li a:hover {
+  background-color: #333;
+}
+
+.navbarBtn {
+  background-color: #222222;
+  color: #fff;
+  border: none;
+  padding: 0.5em 0.8em;
+  text-decoration: none;
+  border-radius: 0.8em;
+}
+.navbarBtn:hover {
+  background-color: #333;
+  color: #fff;
 }/*# sourceMappingURL=styles.css.map */
