@@ -1,1 +1,50 @@
 @import './base';
+
+.bg-main {
+    background-color: $main-color;
+}
+.nav-links {
+    li {
+        a {
+            text-decoration:none;
+            color:#fff;
+            font-size:1.2em;
+        }
+        &:hover {
+            text-decoration:underline;
+        }
+    }
+}
+
+.dropdown {
+    .dropdown-menu {
+        background-color: $main-color;
+        padding:.5em;
+        li {
+            &:hover {
+                background-color:#333;
+            }
+            a {
+                color:#fff;
+                text-decoration: none;
+                &:hover {
+                    background-color: #333;
+                }
+            }
+        }
+        
+    }
+}
+
+.navbarBtn {
+    background-color: $main-color;
+    color:#fff;
+    border:none;
+    padding:.5em .8em;
+    text-decoration:none;
+    border-radius:.8em;
+    &:hover {
+        background-color:#333;
+        color:#fff;
+    }
+}

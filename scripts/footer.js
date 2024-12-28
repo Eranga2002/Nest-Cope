@@ -1,8 +1,8 @@
 import { navbarContent } from './contents/footerContent.js';
 window.addEventListener("DOMContentLoaded", () => {
-    renderFooter();
+    renderFooter(navbarContent);
 });
 
-function renderFooter() {
+function renderFooter(contents) {
 
 }
