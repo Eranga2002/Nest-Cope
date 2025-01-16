@@ -34,7 +34,7 @@ function renderFooter(contents) {
         </div>
         <div class="row bg-dark">
             <div>
-                <h3 class="text-white text-center">EM956 Community</h3>
+                <h3 class="text-white text-center">Powered by EM956 Community</h3>
             </div>
         </div>
     `;
