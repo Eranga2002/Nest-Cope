@@ -1,4 +1,4 @@
-export const navbarContent = [
+export const footerContent = [
     {
         title:"Home",
         link1:"About Us",
