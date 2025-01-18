@@ -7,7 +7,7 @@ function renderFooter(contents) {
     const footerContainer = document.querySelector(".footer");
     let footerContent = `
         <div class="row">
-            <div class="col-md-3 col-sm-5 d-flex flex-col text-center my-5">
+            <div class="col-md-3 col-sm-5 d-flex flex-column text-center my-5">
                 <p><a href="./index.html" class=" ">${contents[0].title}</a></p>
                 <p><a href="./about.html" class="">${contents[0].link1}</a></p>
                 <p><a href="./team.html" class="">${contents[0].link2}</a></p>

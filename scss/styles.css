@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.footer .row a {
+  text-decoration: none;
+  color: #fff;
+}
+.footer .row a:hover {
+  color: coral;
+}
+
 .bg-main {
   background-color: #222222;
 }
@@ -64,4 +72,11 @@ body {
 
 .text-desc {
   font-size: 1.25em;
+}
+
+.signupForm {
+  background-color: rgba(34, 34, 34, 0.7529411765);
+}
+.signupForm input {
+  color: #fff;
 }/*# sourceMappingURL=styles.css.map */

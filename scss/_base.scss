@@ -5,3 +5,15 @@
 }
 
 $main-color: #222222;
+
+.footer {
+    .row {
+        a {
+            text-decoration:none;
+            color:#fff;
+            &:hover {
+                color:coral;
+            }
+        }
+    }
+}
