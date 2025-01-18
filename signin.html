@@ -3,25 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>NetsCope</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./scss/styles.css"/>
-        
+        <title>NetsCope Academy</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+            theme: {
+                extend: {
+                colors: {
+                    clifford: '#da373d',
+                }
+                }
+            }
+            }
+        </script>
     </head>
     <body>
         <!--Navbar Content Loaded by navbar.js file-->
-        <div class="navbar  container-fluid flex bg-main p-4"></div>
-
-        <!-- Main Content -->
-         <div class="container" id="root"></div>
+        <div class="navbar  container-fluid d-flex bg-main p-4"></div>
+        
 
         <!-- Footer Content Loaded by footer.js file-->
         <div class="bg-dark text-white py-4 footer"></div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
         <script type="module" src="./scripts/navbar.js"></script>
-        <script type="module" src="./scripts/Home/index.js"></script>
         <script type="module" src="./scripts/footer.js"></script>
     </body>
 </html>
-<!--End the html page here -->
