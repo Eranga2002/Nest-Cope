@@ -22,9 +22,10 @@ function renderMainContent() {
     `;
     technologies.forEach((technology) => {
         rootContent += `
-            <div class="col-md-4 p-5">
+            <div class="col-md-4 p-5 group">
                 <h2 class="text-center text-desc py-4 text-white">${technology.title}</h2>
                 <p class="text-center text-white">${technology.desc}</p>
+                <a href="${technology.dir}" class="p-2 bg-gray-800 text-white">Find Out</a>
             </div>
         `
     });
